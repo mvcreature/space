@@ -24,6 +24,14 @@ width: 245px;
 height: 312px;
 left: 520px;
 top: 738px;
+animation:  planet14 3s linear 0s infinite;
+
+}
+@keyframes planet14 {
+  0%{}
+  25%{left: 560px;}
+  50%{top: 750px; }
+  100%{}
 
 }
 .Group4{
@@ -32,6 +40,15 @@ width: 135px;
 height: 121px;
 left: 698px;
 top: 1496px;
+animation:  planet13 6s linear 0s infinite;
+
+}
+@keyframes planet13 {
+  0%{}
+  25%{left: 720px;}
+  50%{top: 1510px; }
+  100%{}
+
 }
 .Group5{
   position: absolute;
@@ -39,6 +56,14 @@ top: 1496px;
   height: 300px;
   left: 760px;
   top: 977px;
+  animation: planet16 5s linear 0s infinite;
+
+  }
+  @keyframes planet16 {
+     from {transform:rotate(0deg);}
+     to {transform:rotate(360deg);}
+
+
 }
 
 .Group6{
@@ -47,6 +72,14 @@ width: 298px;
 height: 248px;
 left: 365px;
 top: 1167px;
+animation:  planet17 6s linear 0s infinite;
+
+}
+@keyframes planet17 {
+  0%{}
+  25%{left: 390px;}
+  50%{top: 1200px; }
+  100%{}
 }
 .Group7{
   position: absolute;
@@ -54,12 +87,14 @@ width: 151px;
 height: 126px;
 left: 340px;
 top: 987px;
-animation: spin 5s linear 0s infinite;
+animation:  planet19 6s linear 0s infinite;
 
 }
-@keyframes Group7 {
-   from {transform:rotate(0deg);}
-   to {transform:rotate(360deg);}
+@keyframes planet19 {
+  0%{}
+  25%{left: 380px;}
+  50%{top: 1000px; }
+  100%{}
 
 }
 .Group8{
@@ -68,6 +103,7 @@ width: 129.98px;
 height: 110.29px;
 left: 418.41px;
 top: 714px;
+
 }
 .Group9{
   position: absolute;
@@ -75,6 +111,14 @@ width: 161px;
 height: 144px;
 left: 406px;
 top: 677px;
+animation:  planet18 6s linear 0s infinite;
+
+}
+@keyframes planet18 {
+  0%{}
+  25%{left: 420px;}
+  50%{top: 700px; }
+  100%{}
 }
 .Group10{
   position: absolute;
@@ -82,6 +126,14 @@ width: 162px;
 height: 135px;
 left: 904px;
 top: 671px;
+animation:  planet15 3s linear 0s infinite;
+
+}
+@keyframes planet15 {
+  0%{}
+  25%{left: 920px;}
+  50%{top: 700px; }
+  100%{}
 
 }
 .Group11{
@@ -90,6 +142,14 @@ width: 233.68px;
 height: 278.33px;
 left: 659px;
 top: 420px;
+animation:  planet12 6s linear 0s infinite;
+
+}
+@keyframes planet12 {
+  0%{}
+  25%{left: 670px;}
+  50%{top: 440px; }
+  100%{}
 
 }
 .Group12{
@@ -98,7 +158,15 @@ width: 366px;
 height: 327px;
 left: 802px;
 top: 257px;
-z-index: 1
+/* z-index: 1 */
+animation:  planet20 6s linear 0s infinite;
+
+}
+@keyframes planet20 {
+  0%{}
+  25%{left: 900px;}
+  50%{top: 300px; }
+  100%{}
 }
 .Group13{
   position: absolute;
