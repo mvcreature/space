@@ -106,7 +106,7 @@ width: 123px;
 height: 172px;
 left: 622px;
 top: 190px;
-animation: spin4 3s linear 2s infinite;
+animation: spin4 5s linear 2s infinite;
 
 }
 @keyframes spin4 {
@@ -115,7 +115,7 @@ animation: spin4 3s linear 2s infinite;
    0%{}
    25%{left: 700px;}
    50%{top: 220px; }
-   100%{}
+   100%{top:500px;}
 }
 
 }
@@ -166,13 +166,17 @@ left: 117px;
 top: 428px;
 position: absolute;
 z-index: 1;
- animation: planet5 5s linear 0s infinite;
+animation: planet5 5s linear 0s infinite;
 
 }
 @keyframes planet5 {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(720deg);}
-  }
+   /* from {transform:rotate(0deg);}
+   to {transform:rotate(360deg);} */
+   0%{}
+   25%{left: 130px;}
+   50%{top: 450px; }
+   100%{}
+   }
 .Group18{
   position: absolute;
 width: 109.17px;
@@ -190,6 +194,18 @@ width: 188px;
 height: 260px;
 left: 465px;
 top: 282px;
+animation: spin8 5s linear 0s infinite;
+
+}
+@keyframes spin8 {
+   /* from {transform:rotate(0deg);}
+   to {transform:rotate(360deg);} */
+   0%{}
+   25%{left: 400px;}
+   50%{top: 300px; }
+   100%{}
+
+
 }
 .Group20{
   position: absolute;
@@ -226,7 +242,12 @@ width: 97px;
 height: 137px;
 left: 1180px;
 top: 64px;
+animation: spin6 5s linear 0s infinite;
 
+}
+@keyframes spin6 {
+   from {transform:rotate(0deg);}
+   to {transform:rotate(360deg);}
 }
 .Group23{
   position: absolute;
@@ -252,4 +273,43 @@ width: 449px;
 height: 381px;
 left: 406px;
 top: -5px;
+}
+p{
+  position: absolute;
+width: 154px;
+height: 50px;
+left: 75px;
+top: 2600px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 50px;
+
+
+color: #291042;
+}
+p1{
+  position: absolute;
+  width: 336px;
+  height: 50px;
+  left: 77px;
+  top: 2679px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
+
+
+  color: #291042;
+}
+.logo{
+  position: absolute;
+width: 351px;
+height: 57px;
+left: 940px;
+top: 2664px;
 }
